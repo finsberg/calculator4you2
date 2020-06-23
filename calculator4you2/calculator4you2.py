@@ -34,7 +34,7 @@ def subtract(x: float, y: float) -> float:
     float
         x - y
     """
-    return float(x * y)
+    return float(x - y)
 
 
 def divide(x: float, y: float) -> float:
