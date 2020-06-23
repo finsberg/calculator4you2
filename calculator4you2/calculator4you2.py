@@ -60,4 +60,3 @@ def divide(x: float, y: float) -> float:
     if abs(y) < 1e-12:
         raise ZeroDivisionError("Cannot divede by zero")
     return x / y
-
